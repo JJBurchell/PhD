@@ -1,0 +1,70 @@
+\begin{thebibliography}{8}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Inproceedings
+\bibitem[{Craig(1997)}]{Craig1997}
+\bibinfo{author}{Craig, I.K.}, \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{On the role of the general control problem in
+  engineering education}, in: \bibinfo{booktitle}{4th symposium on advances in
+  control education}, \bibinfo{publisher}{IFAC}, \bibinfo{address}{London}. p.
+  \bibinfo{pages}{241–244}.
+%Type = Article
+\bibitem[{Craig and Henning(2000)}]{CraigAndHenning2000}
+\bibinfo{author}{Craig, I.K.}, \bibinfo{author}{Henning, R.D.G.},
+  \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Evaluation of advanced industrial projects: a
+  framework for determining economic benefit}.
+\newblock \bibinfo{journal}{Control Engineering Practice} \bibinfo{volume}{8},
+  \bibinfo{pages}{769--780}.
+%Type = Article
+\bibitem[{Dontsov and Perice(2014)}]{Dontsov2014}
+\bibinfo{author}{Dontsov, E.V.}, \bibinfo{author}{Perice, A.P.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{A new technique for proppant schedule design}.
+\newblock \bibinfo{journal}{Hydraulic Fracturing Journal} \bibinfo{volume}{1}.
+%Type = Article
+\bibitem[{Holland-Batt et~al.(1982)Holland-Batt, Balderson and
+  Cross}]{HollandBatt1982}
+\bibinfo{author}{Holland-Batt, A.B.}, \bibinfo{author}{Balderson, G.F.},
+  \bibinfo{author}{Cross, M.S.}, \bibinfo{year}{1982}.
+\newblock \bibinfo{title}{The application and design of wet-gravity circuits in
+  the south african minerals industry}.
+\newblock \bibinfo{journal}{SAIMM} .
+%Type = Article
+\bibitem[{Ntengwe and Witika(2011)}]{Ntengwe2011}
+\bibinfo{author}{Ntengwe, F.}, \bibinfo{author}{Witika, L.K.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Optimization of the operating density and particle
+  size distribution of the cyclone overflow to enhance the recovery of
+  flotation of copper sulphide and oxide minerals}.
+\newblock \bibinfo{journal}{SAIMM} .
+%Type = Article
+\bibitem[{Qin and Badgwell(2003)}]{QinAndBadgwell2003}
+\bibinfo{author}{Qin, S.J.}, \bibinfo{author}{Badgwell, T.A.},
+  \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{A survey of industrial model predictive control
+  technology}.
+\newblock \bibinfo{journal}{Control Engineering Practice} \bibinfo{volume}{11},
+  \bibinfo{pages}{733--764}.
+%Type = Inbook
+\bibitem[{Seborg et~al.(2011)Seborg, Edgar, Mellichamp and III}]{Seborg2011}
+\bibinfo{author}{Seborg, J.E.}, \bibinfo{author}{Edgar, T.F.},
+  \bibinfo{author}{Mellichamp, D.A.}, \bibinfo{author}{III, F.J.D.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Process dynamics and control}.
+  \bibinfo{publisher}{John Wiley and Sons}. chapter \bibinfo{chapter}{3.4}.
+\newblock \bibinfo{edition}{3} edition. p.~\bibinfo{pages}{49}.
+%Type = Inbook
+\bibitem[{Skogestad and Postlethwaite(2005)}]{Skogestad2005}
+\bibinfo{author}{Skogestad, S.}, \bibinfo{author}{Postlethwaite, I.},
+  \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Muuultivariable feedback control: analysis and
+  design}. \bibinfo{publisher}{John Wiley and Sons}.
+\newblock \bibinfo{edition}{2} edition.
+
+\end{thebibliography}

@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (MiKTeX 2.9.7380 64-bit)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: burchell_mpc_old.aux
+The style file: model2-names.bst
+Database file #1: references.bib
+I was expecting a `,' or a `}'---line 71 of file references.bib
+ :   edition =  2
+ :               nd,
+I'm skipping whatever remains of this entry
+Warning--empty chapter and pages in Skogestad2005
+Warning--empty pages in Skogestad2005
+You've used 8 entries,
+            2761 wiz_defined-function locations,
+            642 strings with 5965 characters,
+and the built_in function-call counts, 4697 in all, are:
+= -- 377
+> -- 160
+< -- 9
++ -- 68
+- -- 54
+* -- 499
+:= -- 703
+add.period$ -- 23
+call.type$ -- 8
+change.case$ -- 58
+chr.to.int$ -- 8
+cite$ -- 10
+duplicate$ -- 343
+empty$ -- 325
+format.name$ -- 86
+if$ -- 888
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 65
+newline$ -- 49
+num.names$ -- 32
+pop$ -- 94
+preamble$ -- 1
+purify$ -- 50
+quote$ -- 0
+skip$ -- 138
+stack$ -- 0
+substring$ -- 158
+swap$ -- 269
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 66
+warning$ -- 2
+while$ -- 28
+width$ -- 0
+write$ -- 121
+(There was 1 error message)
