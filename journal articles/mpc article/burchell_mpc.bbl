@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -6,6 +6,14 @@
 \providecommand{\eprint}[2][]{\url{#2}}
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Adetola et~al.(2009)Adetola, DeHaan and Guay}]{Adetola2009}
+\bibinfo{author}{Adetola, V.}, \bibinfo{author}{DeHaan, D.},
+  \bibinfo{author}{Guay, M.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Adaptive model predictive control for constrained
+  nonlinear systems}.
+\newblock \bibinfo{journal}{Systems and Control Letters} \bibinfo{volume}{58},
+  \bibinfo{pages}{320--326}.
 %Type = Inproceedings
 \bibitem[{Craig(1997)}]{Craig1997}
 \bibinfo{author}{Craig, I.K.}, \bibinfo{year}{1997}.
@@ -35,6 +43,12 @@
 \newblock \bibinfo{title}{The application and design of wet-gravity circuits in
   the south african minerals industry}.
 \newblock \bibinfo{journal}{SAIMM} .
+%Type = Article
+\bibitem[{Ilka and Vesele\'y(2015)}]{Vesely2015}
+\bibinfo{author}{Ilka, A.}, \bibinfo{author}{Vesele\'y, V.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Gain-scheduled mpc design for nonlinear systems with
+  input constraints} \bibinfo{volume}{48}, \bibinfo{pages}{012--917}.
 %Type = Article
 \bibitem[{Ntengwe and Witika(2011)}]{Ntengwe2011}
 \bibinfo{author}{Ntengwe, F.}, \bibinfo{author}{Witika, L.K.},

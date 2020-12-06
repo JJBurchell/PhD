@@ -372,7 +372,8 @@ A linear approximation of the surge tank model follows from (\ref{eq:VolumeDynam
 
 %///////////////////////////////////////////////////////////////////////////////
 \subsection{Model Predictive Control}\label{sec:MPC}
-The MPC controller can be described as:
+Model predictive control (MPC) refers to a class of advanced control algorithms that rely on a model to predict the responses of a process over a finite prediction horison. An MPC solves for the control moves over the prediction horison by minimising a cost function, which is based on the desired trajectory of the process over the prediction horison, and subject to constraints on the input and output signals:
+
 \begin{equation}\label{eq:mpc_obj}
 \begin{array}{l}
 \underset{u_{k|k},...,u_{k|k+N_c}}{\min} J\left(u,x_{k|k}\right)\\
@@ -434,7 +435,7 @@ Fig. \ref{fig:GainInversion}, simulates three scenarios using the non-linear mod
 	\label{fig:GainInversion}
 \end{figure*}
 
-Therefore, for a particular control scenario where, where the controller is tasked to maintain the $\rho$ at a target density $\rho_{target}$, with 
+Therefore, for the particular scenario where a controller is tasked to maintain $\rho$ at a target density $\rho_{target}$, with 
 \begin{align}
 	\begin{split}
 	\rho_i &< \bar{\rho}_i \\
@@ -443,7 +444,10 @@ Therefore, for a particular control scenario where, where the controller is task
 \end{split}
 \label{eq:GainInversionScenario}
 \end{align}
-a linear model based controller would increase $q_i$, further driving $\rho$ away from $\rho_{target}$. To avoid this, a non-linear MPC controller was chosen to be implemented. 
+a linear model based controller would increase $q_i$, further driving $\rho$ away from $\rho_{target}$. It is therefore important to account for the demonstrated gain inversion in the controller design. 
+
+Since the non-linear system model is available in \ref{eq:NonLinearStateSpaceForm}	, a non-linear MPC (NMPC) design can be used. The main drawback of NMPC is the computational burden in solving its non-linear optimisation problem. The surge tank system considered here is slow enough for this computational burden to not be a problem. For non-linear systems with faster dynamics, where the range of operation requires non-linearity to be accounted for, adaptive MPC \citep{Adetola2009} and gain scheduled MPC \citep{Vesely2015} can be used.
+
 %===============================================================================
 %///////////////////////////////////////////////////////////////////////////////
 \section{Non-Linear Model Predictive Control}\label{sec:NonLinearMPC}

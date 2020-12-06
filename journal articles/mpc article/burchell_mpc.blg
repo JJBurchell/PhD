@@ -1,53 +1,94 @@
-This is BibTeX, Version 0.99d (MiKTeX 2.9.7380 64-bit)
+This is BibTeX, Version 0.99d (MiKTeX 2.9.7400 64-bit)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: burchell_mpc.aux
 The style file: model2-names.bst
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 71 of file references.bib
+I was expecting a `,' or a `}'---line 102 of file references.bib
  :   edition =  2
  :               nd,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Forbes2015"
+Warning--I didn't find a database entry for "Qin2003"
+Warning--I didn't find a database entry for "Camacho1999"
+Warning--I didn't find a database entry for "Mayne2009"
+Name 1 in "John E. Seborg, and Thomas F. Edgar, and Duncan A. Mellichamp, and Francis J. Doyle III" has a comma at the end for entry Seborg2011
+while executing---line 1366 of file model2-names.bst
+Name 1 in "John E. Seborg, and Thomas F. Edgar, and Duncan A. Mellichamp, and Francis J. Doyle III" has a comma at the end for entry Seborg2011
+while executing---line 1366 of file model2-names.bst
+Name 2 in "John E. Seborg, and Thomas F. Edgar, and Duncan A. Mellichamp, and Francis J. Doyle III" has a comma at the end for entry Seborg2011
+while executing---line 1366 of file model2-names.bst
+Name 3 in "John E. Seborg, and Thomas F. Edgar, and Duncan A. Mellichamp, and Francis J. Doyle III" has a comma at the end for entry Seborg2011
+while executing---line 1366 of file model2-names.bst
+Name 1 in "Adetola, V., and DeHaan, D. and Guay, M." has a comma at the end for entry Adetola2009
+while executing---line 1366 of file model2-names.bst
+Name 1 in "Adetola, V., and DeHaan, D. and Guay, M." has a comma at the end for entry Adetola2009
+while executing---line 1366 of file model2-names.bst
+Name 1 in "Ilka, A, and Vesele\'y, V." has a comma at the end for entry Vesely2015
+while executing---line 1366 of file model2-names.bst
+Name 1 in "Ilka, A, and Vesele\'y, V." has a comma at the end for entry Vesely2015
+while executing---line 1366 of file model2-names.bst
+Name 1 in "Adetola, V., and DeHaan, D. and Guay, M." has a comma at the end for entry Adetola2009
+while executing---line 1446 of file model2-names.bst
+Name 1 in "Adetola, V., and DeHaan, D. and Guay, M." has a comma at the end for entry Adetola2009
+while executing---line 1446 of file model2-names.bst
+Name 1 in "Ilka, A, and Vesele\'y, V." has a comma at the end for entry Vesely2015
+while executing---line 1446 of file model2-names.bst
+Name 1 in "Ilka, A, and Vesele\'y, V." has a comma at the end for entry Vesely2015
+while executing---line 1446 of file model2-names.bst
+Warning--empty journal in Vesely2015
+Name 1 in "John E. Seborg, and Thomas F. Edgar, and Duncan A. Mellichamp, and Francis J. Doyle III" has a comma at the end for entry Seborg2011
+while executing---line 1446 of file model2-names.bst
+Name 2 in "John E. Seborg, and Thomas F. Edgar, and Duncan A. Mellichamp, and Francis J. Doyle III" has a comma at the end for entry Seborg2011
+while executing---line 1446 of file model2-names.bst
+Name 3 in "John E. Seborg, and Thomas F. Edgar, and Duncan A. Mellichamp, and Francis J. Doyle III" has a comma at the end for entry Seborg2011
+while executing---line 1446 of file model2-names.bst
+Name 1 in "John E. Seborg, and Thomas F. Edgar, and Duncan A. Mellichamp, and Francis J. Doyle III" has a comma at the end for entry Seborg2011
+while executing---line 1446 of file model2-names.bst
+Name 2 in "John E. Seborg, and Thomas F. Edgar, and Duncan A. Mellichamp, and Francis J. Doyle III" has a comma at the end for entry Seborg2011
+while executing---line 1446 of file model2-names.bst
+Name 3 in "John E. Seborg, and Thomas F. Edgar, and Duncan A. Mellichamp, and Francis J. Doyle III" has a comma at the end for entry Seborg2011
+while executing---line 1446 of file model2-names.bst
 Warning--empty chapter and pages in Skogestad2005
 Warning--empty pages in Skogestad2005
-You've used 8 entries,
+You've used 10 entries,
             2761 wiz_defined-function locations,
-            642 strings with 5957 characters,
-and the built_in function-call counts, 4697 in all, are:
-= -- 377
-> -- 160
-< -- 9
-+ -- 68
-- -- 54
-* -- 499
-:= -- 703
-add.period$ -- 23
-call.type$ -- 8
-change.case$ -- 58
-chr.to.int$ -- 8
-cite$ -- 10
-duplicate$ -- 343
-empty$ -- 325
-format.name$ -- 86
-if$ -- 888
+            666 strings with 6333 characters,
+and the built_in function-call counts, 5915 in all, are:
+= -- 476
+> -- 204
+< -- 10
++ -- 85
+- -- 69
+* -- 639
+:= -- 888
+add.period$ -- 28
+call.type$ -- 10
+change.case$ -- 73
+chr.to.int$ -- 10
+cite$ -- 13
+duplicate$ -- 424
+empty$ -- 409
+format.name$ -- 109
+if$ -- 1114
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 65
-newline$ -- 49
-num.names$ -- 32
-pop$ -- 94
+missing$ -- 82
+newline$ -- 58
+num.names$ -- 40
+pop$ -- 114
 preamble$ -- 1
-purify$ -- 50
+purify$ -- 63
 quote$ -- 0
-skip$ -- 138
+skip$ -- 164
 stack$ -- 0
-substring$ -- 158
-swap$ -- 269
+substring$ -- 222
+swap$ -- 335
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 66
-warning$ -- 2
-while$ -- 28
+type$ -- 84
+warning$ -- 3
+while$ -- 36
 width$ -- 0
-write$ -- 121
-(There was 1 error message)
+write$ -- 147
+(There were 19 error messages)
