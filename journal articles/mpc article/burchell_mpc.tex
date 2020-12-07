@@ -372,7 +372,7 @@ A linear approximation of the surge tank model follows from (\ref{eq:VolumeDynam
 
 %///////////////////////////////////////////////////////////////////////////////
 \subsection{Model Predictive Control}\label{sec:MPC}
-Model predictive control (MPC) refers to a class of advanced control algorithms that rely on a model to predict the responses of a process over a finite prediction horison. An MPC solves for the control moves over the prediction horison by minimising a cost function, which is based on the desired trajectory of the process over the prediction horison, and subject to constraints on the input and output signals:
+Model predictive control (MPC) refers to a class of advanced control algorithms that rely on a model $f(\boldsymbol{x}(j + k|k), \boldsymbol{u}(j + k|k), \boldsymbol{d}(j + k|k))$ to predict the responses of a process over a finite prediction horison. An MPC solves for the a set of control moves $u_k$ over the prediction horison by minimising a cost function $J(u)$, which is based on the desired trajectory of the process over the prediction horison, and subject to constraints on the input and output signals:
 
 \begin{equation}\label{eq:mpc_obj}
 \begin{array}{l}
